@@ -33,10 +33,11 @@ public class BaseTest {
         Selenide.closeWebDriver();
     }
     @Test
-    public void openChrome() {
+    public void test() {
         MainPage mainPage = new MainPage(URL);
 
     }
+
 }
 
 
